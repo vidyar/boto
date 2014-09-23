@@ -14,5 +14,3 @@ install:
   - shippable_retry pip install -r requirements.txt
 script: python tests/test.py default
 
-notifications:
-  email: false 
